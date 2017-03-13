@@ -70,7 +70,6 @@ def find_urls(myString):
 
 def get_umsi_data():
 	html_strs = []
-
 	base_url = "https://www.si.umich.edu/directory?field_person_firstname_value=&field_person_lastname_value=&rid=All&page=" 
 	i = 0
 	current_url = base_url + str(i)	
