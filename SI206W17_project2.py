@@ -31,6 +31,7 @@ public_tweets = api.home_timeline()
 ## Part 0 -- CACHING SETUP
 
 ## Write the code to begin your caching pattern setup here.
+
 CACHE_FNAME = "206project2_caching.json"
 try:
 	cache_file = open(CACHE_FNAME,'r')
